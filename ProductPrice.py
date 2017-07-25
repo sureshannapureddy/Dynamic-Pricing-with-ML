@@ -2,8 +2,6 @@ import os
 import pandas as pd
 import numpy as np
 
-os.chdir(‘C:\\Users\\Downloads’)
-
 df_raw = pd.read_csv(‘Vendor_Data.csv’)
 #print(df_raw.head())
 #print(df_raw.describe())
